@@ -1,0 +1,58 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    padding: 100px 120px 0px 120px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #E02C6D;
+}
+.header-text{
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3A3A3A;
+}
+.main-peragraph{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.primary-btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+.header-btn{
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    align-self: flex-start;
+}
+.header-img{
+    width: 475px;
+    height: 475px;
+}
+.header-img img{
+    width: 440px;
+    height: 410px;
+}
