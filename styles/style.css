@@ -9,7 +9,6 @@
     padding: 100px 120px 0px 120px;
     justify-content: center;
     align-items: center;
-    border: 3px solid #E02C6D;
 }
 .header-text{
     height: 475px;
@@ -55,4 +54,31 @@
 .header-img img{
     width: 440px;
     height: 410px;
+}
+
+@media only screen and (max-width:688px) {
+    .header{
+        padding: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-img {
+        /* width: 475px; */
+        /* height: 475px; */
+        height: 150px;
+        width: 100%;
+    }
+    .header-img img{
+        width: 257px;
+        height: 257px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-header{
+        font-size: 28px;
+        text-align: center;
+    }
+    
 }
